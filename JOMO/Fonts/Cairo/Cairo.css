@@ -1,0 +1,24 @@
+@font-face {
+	font-family: Cairo-Black;
+	src: url("./Cairo-Black.ttf") format("truetype");
+}
+@font-face {
+	font-family: Cairo-Bold;
+	src: url("./Cairo-Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: Cairo-ExtraLight;
+	src: url("./Cairo-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+	font-family: Cairo-Light;
+	src: url("./Cairo-Light.ttf") format("truetype");
+}
+@font-face {
+	font-family: Cairo-Regular;
+	src: url("./Cairo-Regular.ttf.ttf") format("truetype");
+}
+@font-face {
+	font-family: Cairo-SemiBold;
+	src: url("./Cairo-SemiBold.ttf") format("truetype");
+}
