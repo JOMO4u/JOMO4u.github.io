@@ -11,6 +11,7 @@
     position: absolute;
     top: 375px;
     margin-top: -22px;
+    z-index: 1;
 }
 #h_0_2 {
     left: 0;
@@ -36,6 +37,7 @@
     width: 100%;
     animation-name: h_0_1;
     animation-duration: 2.5s;
+    z-index: 0;
 }
 #h_0_1_0 {
     display: block;
@@ -94,6 +96,7 @@
     display: flex;
     background-color: rgba(16, 51, 86, 1);
     flex-direction: row-reverse;
+    z-index: 2;
 }
 #h_1_0 {
     padding: 0 20px;
