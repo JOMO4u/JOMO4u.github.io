@@ -15,10 +15,11 @@
 		<link rel="stylesheet" type="text/css" href="./CSS/Scrollbar.css"/>
         <link rel="stylesheet" type="text/css" href="./CSS/Header.css"/>
         <link rel="stylesheet" type="text/css" href="./CSS/Section0.css"/>
-		<link rel="stylesheet" type="text/css" href="./CSS/Section1.css"/>
+        <link rel="stylesheet" type="text/css" href="./CSS/Section1.css"/>
+        <link rel="stylesheet" type="text/css" href="./CSS/Section2.css"/>
         <link rel="stylesheet" type="text/css" href="./CSS/Footer.css"/>
 <!--    Fonts                           -->
-        <link rel="stylesheet" type="text/css" href="./Fonts/Cairo/Cairo.css"/>
+        <link rel="stylesheet" type="text/css" href="./Fonts/Tajawal/Tajawal.css"/>
 <!--    Fonts Name                      -->
 <!--
     Cairo-Black
@@ -42,21 +43,51 @@
             
         </div>
         <div id="m_1" onload="m_1L()">
-            <header class="header0" id="h">
-                <div class="slideshow0" id="h_0">
-                    <div class="slideshow0_plus" id="h_0_0">
-                        <span class="slideshow0_plus_text" id="h_0_0_0">❮</span>
+            <header class="h" id="h">
+                <div id="h_0">
+                    <div id="h_0_0" onclick="h_0_0(-1)">
+                        <span id="h_0_0_0">❮</span>
                     </div>
-                    <div class="slideshow0_slides" id="h_0_1">
-                        <div class="slideshow0_slides_index" id="h_0_1_0"></div>
-                        <div class="slideshow0_slides_index" id="h_0_1_1"></div>
+                    <div id="h_0_1">
+                        <div id="h_0_1_0">
+                            <a id="h_0_1_0_0" href="https://www.facebook.com/groups/jomo4uunion" target="_blank">
+                                <img id="h_0_1_0_0_0" src="./Media/Photos/JOMO.png" alt="JOMO Union"/>
+                                <div id="h_0_1_0_0_1">
+                                    أهلا بك في جروب JOMO Union
+                                </div>
+                            </a>
+                        </div>
+                        <div id="h_0_1_1">
+                            <a id="h_0_1_1_0" href="https://www.facebook.com/JOMO4u" target="_blank">
+                                <img id="h_0_1_1_0_0" src="./Media/Photos/JOMO.png" alt="JOMO Union"/>
+                                <div id="h_0_1_1_0_1">
+                                    تابع صفحتنا ليصلك كل جديد JOMO
+                                </div>
+                            </a>
+                        </div>
+                        <div id="h_0_1_2">
+                            <a id="h_0_1_2_0" href="./JOMO.html#s1">
+                                <img id="h_0_1_2_0_0" src="./Media/Photos/JOMO.png" alt="JOMO Union"/>
+                                <div id="h_0_1_2_0_1">
+                                    سوف نصنع لك الواجهة الأمامية مجاناً
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="slideshow0_minus" id="h_0_2">
-                        <span class="slideshow0_minus_text" id="h_0_2_0">❯</span>
+                    <div id="h_0_2" onclick="h_0_2(1)">
+                        <span id="h_0_2_0">❯</span>
                     </div>
                 </div>
-                <div id="h_0">
-
+                <div id="h_1">
+                    <a id="h_1_0" href="./JOMO.html" target="_blank">
+                        <img id="h_1_0_0" src="./Media/Photos/JOMO.png" alt="JOMO"/>
+                    </a>
+                    <div id="h_1_1">
+                        <a id="h_1_1_0" href="./JOMO.html">الصفحة الرئيسة</a>
+                        <a id="h_1_1_1" href="./JOMO.html#s0">منتجاتنا</a>
+                        <a id="h_1_1_2" href="./JOMO.html#s1">تعلم البرمجة</a>
+                        <a id="h_1_1_3" href="./JOMO.html#s2">من نحن</a>
+                    </div>
                 </div>
             </header>
             <section class="section0" id="s0">
@@ -67,9 +98,6 @@
             </section>
             <section class="section0" id="s2">
                 
-            </section>
-            <section class="section0" id="s3">
-
             </section>
             <footer class="footer0" id="f">
                 
@@ -83,6 +111,7 @@
         <script src="./JS/Header.js"></script>
         <script src="./JS/Section0.js"></script>
         <script src="./JS/Section1.js"></script>
+        <script src="./JS/Section2.js"></script>
         <script src="./JS/Footer.js"></script>
     </body>
 </html>
