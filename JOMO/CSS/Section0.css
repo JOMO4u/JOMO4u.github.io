@@ -1,13 +1,13 @@
-#s0_0 {
+.s0_0 {
     padding: 50px;
 }
-#s0_0_0 {
+.s0_0_0 {
     margin: auto;
     width: 750px;
     background-color: rgba(12, 56, 101, 1);
     border-radius: 12.5px;
 }
-#s0_0_0_0 {
+.s0_0_0_0 {
     color: rgba(255, 255, 255, 1);
     padding: 10px;
     background-color: rgba(72, 192, 182, 1);
@@ -16,22 +16,22 @@
     font-size: 20px;
     text-align: center;
 }
-#s0_0_0_1 {
+.s0_0_0_1 {
     color: rgba(255, 255, 255, 1);
     font-size: 20px;
 }
 #s0_0_0_1_0, #s0_0_0_1_1, #s0_0_0_1_2 {
     padding-top: 10px;
 }
-#s0_0_0_1_0_0, #s0_0_0_1_1_0, #s0_0_0_1_2_0 {
+.s0_0_0_1_0_0 {
     padding: 10px;
     background-color: rgba(16, 51, 86, 1);
     text-align: center;
 }
-#s0_0_0_1_0_1, #s0_0_0_1_0_2, #s0_0_0_1_1_1, #s0_0_0_1_1_2, #s0_0_0_1_1_3, #s0_0_0_1_2_1, #s0_0_0_1_2_2 {
+.s0_0_0_1_0_1 {
     padding: 5px 20px 5px 5px;
 }
-#s0_0_0_1_3 {
+.s0_0_0_2 {
     color: rgba(255, 255, 255, 1);
     padding: 10px;
     background-color: rgba(72, 192, 182, 1);
@@ -40,9 +40,10 @@
     font-size: 20px;
     text-align: center;
 }
-#s0_0_0_1_3_0 {
+.s0_0_0_2_0 {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
-}#s0_0_0_1_3_0:hover {
+}
+.s0_0_0_2_0:hover {
     text-decoration: underline;
 }

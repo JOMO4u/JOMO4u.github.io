@@ -1,0 +1,22 @@
+#f {
+    background-color: rgba(16, 51, 86, 1);;
+}
+#f_0 {
+    display: flex;
+    flex-direction: row;
+}
+#f_0_0 {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    flex-direction: row;
+}
+#f_0_0_0 {
+    height: 30px;
+}
+#f_0_0_1 {
+    color: rgba(255, 255, 255, 1);
+    padding: 0 5px;
+    font-family: Tajawal-Black;
+    font-size: 20px;
+}

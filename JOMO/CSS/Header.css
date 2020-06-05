@@ -131,7 +131,6 @@
 #h_1_1_1,
 #h_1_1_2,
 #h_1_1_3 {
-    display: none;
     color: rgba(255, 255, 255, 1);
     float: right;
     padding: 10px;
@@ -139,151 +138,10 @@
     text-align: center;
     text-decoration: none;
 }
-#h_1_1_0 {
-    display: block;
-}
 #h_1_1_0:hover,
 #h_1_1_1:hover,
 #h_1_1_2:hover,
 #h_1_1_3:hover {
     color: rgba(72, 192, 182, 1);
     background-color: rgba(12, 56, 101, 1);
-}
-@media (max-width: 1305px) {
-    #h_0 {
-        display: block;
-        height: 375px;
-        background-color: rgba(12, 56, 101, 1);
-    }
-    #h_0_0,
-    #h_0_2 {
-        color: rgba(72, 192, 182, 1);
-        cursor: pointer;
-        padding: 10px;
-        position: absolute;
-        top: 187.5px;
-        margin-top: -11px;
-        z-index: 1;
-    }
-    #h_0_2 {
-        left: 0;
-    }
-    #h_0_0:hover,
-    #h_0_2:hover {
-        background-color: rgba(16, 51, 86, 1);
-    }
-    #h_0_0_0,
-    #h_0_2_0 {
-        font-weight: bold;
-    }
-    #h_0_1 {
-        display: flex;
-        height: 100%;
-        flex-direction: row;
-    }
-    #h_0_1_0,
-    #h_0_1_1,
-    #h_0_1_2 {
-        display: none;
-        height: 100%;
-        width: 100%;
-        animation-name: h_0_1;
-        animation-duration: 2.5s;
-        z-index: 0;
-    }
-    #h_0_1_0 {
-        display: block;
-        background-image: url("../Media/Photos/jimo.jpg");
-        background-origin: border-box;
-        background-repeat: no-repeat;
-        background-size: 775px;
-    }
-    #h_0_1_0_0,
-    #h_0_1_1_0,
-    #h_0_1_2_0 {
-        color: rgba(255, 255, 255, 1);
-        display: flex;
-        margin: 102.5px calc(50% - 200px);
-        padding: 25px;
-        width: 400px;
-        flex-direction: row;
-        text-decoration: none;
-    }
-    #h_0_1_1_0 {
-        margin: 102.5px calc(50% - 222.5px);
-        width: 445px;
-    }
-    #h_0_1_2_0 {
-        margin: 102.5px calc(50% - 238.5px);
-        width: 477px;
-    }
-    #h_0_1_0_0:hover,
-    #h_0_1_1_0:hover,
-    #h_0_1_2_0:hover {
-        text-decoration: underline;
-    }
-    #h_0_1_0_0_0,
-    #h_0_1_1_0_0,
-    #h_0_1_2_0_0 {
-        height: 100px;
-        padding: 10px;
-    }
-    #h_0_1_0_0_1,
-    #h_0_1_1_0_1,
-    #h_0_1_2_0_1 {
-        color: rgba(255, 255, 255, 1);
-        padding: 10px;
-        font-family: Tajawal-Black;
-        font-size: 32.5px;
-    }
-    @keyframes h_0_1 {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
-    #h_0_1_0_0 {
-        display: flex;
-        flex-direction: row;
-    }
-    #h_1 {
-        display: flex;
-        background-color: rgba(16, 51, 86, 1);
-        flex-direction: row-reverse;
-        z-index: 2;
-    }
-    #h_1_0 {
-        padding: 0 10px;
-    }
-    #h_1_0_0 {
-        height: 12.5px;
-        transform: translate(0, 2.5px);
-        padding: 2.5px;
-    }
-    #h_1_1 {
-        display: flex;
-        width: 100%;
-        font-family: Tajawal-Black;
-        flex-direction: row;
-    }
-    #h_1_1_0,
-    #h_1_1_1,
-    #h_1_1_2,
-    #h_1_1_3 {
-        color: rgba(255, 255, 255, 1);
-        float: right;
-        padding: 5px;
-        width: 100%;
-        text-align: center;
-        text-decoration: none;
-    }
-    #h_1_1_0:hover,
-    #h_1_1_1:hover,
-    #h_1_1_2:hover,
-    #h_1_1_3:hover {
-        color: rgba(72, 192, 182, 1);
-        background-color: rgba(12, 56, 101, 1);
-    }
 }
